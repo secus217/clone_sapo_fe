@@ -1,0 +1,47 @@
+/*@tailwind base;*/
+@tailwind components;
+@tailwind utilities;
+body{
+    margin: 0;
+    padding: 0;
+}
+.recent-orders-table .ant-table-thead > tr > th {
+    background-color: transparent;
+    color: #6b7280;
+}
+
+tr>th::before{
+    display: none !important;
+}
+.borderBottom{
+    border-bottom: 1px solid #E8EAEB;
+}
+.borderRight{
+    border-right: 1px dashed #E8EAEB;
+}
+.shipping-tracker-card {
+    border-radius: 8px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.shipping-tracker-card .ant-steps-item-title {
+    font-size: 12px;
+}
+
+.shipping-tracker-card .ant-steps-item-description {
+    font-size: 11px;
+}
+
+.shipping-tracker-card .ant-divider {
+    margin: 12px 0;
+}
+
+.shipping-tracker-card .ant-typography {
+    margin-bottom: 0;
+}
+.ant-select-outlined.ant-select-disabled:not(.ant-select-customize-input) .ant-select-selector,
+.ant-input-outlined.ant-input-disabled, .ant-input-outlined[disabled],
+.ant-input-number .ant-input-number-input{
+    background-color: #fff !important;
+    color: black !important;
+}
